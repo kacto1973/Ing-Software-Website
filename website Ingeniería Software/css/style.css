@@ -1,9 +1,24 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #c3d4a5, #a1b765,#829e4e );
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+.space-grotesk-font {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 105px;
+}
 
+.text-justify {
+  text-align: justify;
+}
+
+.text-rojo{
+  color: #9c2525;
+  font-size: 28px;
+}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -14,6 +29,19 @@
   100% {
     background-position: 0% 50%;
   }
+}
+.custom-hover{
+  background-color: white;
+}
+.custom-hover:hover {
+  background-color: #6e8641; /* Color de fondo al hacer hover */
+  border-color: #6e8641;     /* Cambia el color del borde al hacer hover */
+  color: white;              /* Cambia el color del texto al hacer hover */
+}
+.custom-hover:active{
+  background-color: #c76d80; /* Color de fondo al hacer click */
+  border-color: #6e8641;     /* Cambia el color del borde al hacer click */
+  color: white;              /* Cambia el color del texto al hacer click */
 }
 
 .icon-square {
@@ -26,4 +54,5 @@
   height: 100px;
   border-radius: 50%;
 }
+
 
