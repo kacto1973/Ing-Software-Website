@@ -30,16 +30,14 @@
     background-position: 0% 50%;
   }
 }
-.custom-hover{
-  background-color: white;
-}
-.custom-hover:hover {
+
+.btn:hover {
   background-color: #6e8641; /* Color de fondo al hacer hover */
   border-color: #6e8641;     /* Cambia el color del borde al hacer hover */
   color: white;              /* Cambia el color del texto al hacer hover */
 }
-.custom-hover:active{
-  background-color: #c76d80; /* Color de fondo al hacer click */
+.btn:active{
+  background-color: #770a22; /* Color de fondo al hacer click */
   border-color: #6e8641;     /* Cambia el color del borde al hacer click */
   color: white;              /* Cambia el color del texto al hacer click */
 }
